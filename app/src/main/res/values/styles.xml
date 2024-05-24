@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">
+            @drawable/custom_button_background
+        </item>
+        <item name="android:textColor">
+            @color/custom_button_text_color
+        </item>
+    </style>
+    <style name="ButtonPrimary">
+        <item name="android:background">
+            @drawable/button_primary_background
+        </item>
+        <item name="android:textColor">
+            @android:color/white
+        </item>
+    </style>
+    <style name="ButtonSuccess">
+        <item name="android:background">
+            @drawable/button_success_background
+        </item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ButtonWarning">
+        <item name="android:background">
+            @drawable/button_warning_background
+        </item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ImageBackgroundButton">
+        <item name="android:background">@drawable/pattern1</item>
+    </style>
+    <style name="ButtonBorder">
+        <item name="android:background">@drawable/button_border</item>
+    </style>
+
+
+</resources>
+
